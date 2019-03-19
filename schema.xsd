@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+  xmlns:target="http://www.course-catalog.com"
+  targetNamespace="http://www.course-catalog.com"
+  elementFormDefault="qualified">
+  <element name="semester">
+    <complexType mixed="false">
+      <all>
+      <element name="course">
+        <complexType mixed="false">
+          <sequence>
+            <element name="courseId" type="string"/>
+            <element name="courseName" type="string"/>
+            <element name="programName" type="string"/>
+            <element name="description" type="string"/>
+            <element name="credits">
+              <simpleType>
+                <restriction base="integer">
+                  <minInclusive value="0"/>
+                  <maxInclusive value="4"/>
+                </restriction>
+              </simpleType>
+            </element>
+            <element name="professorName" type="string"/>
+            <element name="prereqCourseid" type="string" maxOccurs="unbounded"/>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="program">
+        <complexType mixed="false">
+          <sequence>
+            <element name="branch" minOccurs="0">
+              <simpleType>
+                <restriction base="string">
+                  <enumeration value="CSE"/>
+                  <enumeration value="ECE"/>
+                  <enumeration value="IT"/>
+                  <enumeration value="ESD"/>
+                </restriction>
+              </simpleType>
+            </element>
+            <element name="programName" type="string"/>
+            <element name="totalCredits" type="integer"/>
+            <element name="about" type="string"/>
+          </sequence>
+        </complexType>
+      </element>
+    </all>
+  </complexType>
+ </element>
+</schema>
