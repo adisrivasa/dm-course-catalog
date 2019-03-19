@@ -45,6 +45,53 @@
           </sequence>
         </complexType>
       </element>
+      <element name="faculty">
+        <complexType mixed="false">
+          <sequence>
+            <element name="facultyName" type="string"/>
+            <element name="education">
+              <complexType>
+                <sequence>
+                  <element name="degree" type="string" maxOccurs="unbounded"/>
+                  <element name="almaMater" type="string" maxOccurs="unbounded"/>
+                  <element name="website" type="string"/>
+                </sequence>
+              </complexType>
+            </element>
+            <element name="researchInterests">
+              <complexType>
+                <sequence>
+                  <element name="topic" type="string" maxOccurs="unbounded"/>
+                </sequence>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="event">
+        <complexType mixed="false">
+          <sequence>
+            <element name="eventName" type="string"/>
+            <element name="schedule">
+              <complexType>
+                <sequence>
+                  <element name="fromDate" type="date"/>
+                  <element name="toDate" type="date"/>
+                </sequence>
+              </complexType>
+            </element>
+          </sequence>
+        </complexType>
+      </element>
+      <element name="holiday">
+        <complexType mixed="false">
+          <sequence>
+            <element name="holidayName" type="string"/>
+            <element name="duration" type="string"/>
+            <element name="date" type="date"/>
+          </sequence>
+        </complexType>
+      </element>
     </all>
   </complexType>
  </element>
