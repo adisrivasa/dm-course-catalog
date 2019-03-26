@@ -1,0 +1,15 @@
+<contentfragment>
+  <id>3</id>
+  <type>Course</type>
+  <tags>
+    <courseName>Introduction to Automata Theory</courseName>
+    <courseId>CS 302</courseId>
+    <acadYear>2018</acadYear>
+    <semester>Fall</semester>
+    <programName>CSE Core</programName>
+    <description>To understand the basic concepts in the theory of computation and automata theory. To understand the formal description of a computer as a Turing Machine. To understand the formal equivalence of formal languages and problems, and results like the Halting Problem.</description>
+    <credits>4</credits>
+    <profName>Prof. Shrisha Rao</profName>
+    <prereqCourse>Discrete Mathematics</prereqCourse>
+  </tags>
+</contentfragment>

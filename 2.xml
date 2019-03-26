@@ -1,0 +1,15 @@
+<contentfragment>
+  <id>2</id>
+  <type>Course</type>
+  <tags>
+    <courseName>Programming Language</courseName>
+    <courseId>CC 110</courseId>
+    <acadYear>2019</acadYear>
+    <semester>Spring</semester>
+    <programName>CSE Core</programName>
+    <description>This course aims to teach the following things, survey of programming paradigms, functional programming and implementation of programming languages.</description>
+    <credits>3</credits>
+    <profName>Prof. Sujit Kumar Chakrabarti</profName>
+    <prereqCourse>Data-structures and Algorithms</prereqCourse>
+  </tags>
+</contentfragment>

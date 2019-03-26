@@ -1,0 +1,17 @@
+<contentfragment>
+  <id>1</id>
+  <type>Course</type>
+  <tags>
+    <courseName>Data Modeling</courseName>
+    <courseId>DS/SE 603</courseId>
+    <acadYear>2019</acadYear>
+    <semester>Spring</semester>
+    <programName>Elective</programName>
+    <description>This course will provide an in-depth understanding of data modeling both from a theoretical as well as a practical point of view. Building on the concepts introduced in any Database Systems core course, this course aims to provide a thorough understanding of advanced data modeling concepts.</description>
+    <credits>4</credits>
+    <profName>Prof. Chandrashekar R</profName>
+    <prereqCourse>Database Systems</prereqCourse>
+    <prereqCourse>Machine Learning</prereqCourse>
+    <prereqCourse>Math for ML</prereqCourse>
+  </tags>
+</contentfragment>

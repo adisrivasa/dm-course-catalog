@@ -1,0 +1,11 @@
+<contentfragment>
+  <id>6</id>
+  <type>Academic Programs</type>
+  <tags>
+    <programName>iMTech</programName>
+    <branch>CSE</branch>
+    <totalCredits>200</totalCredits>
+    <about>Integrated MTech program</about>
+    <duration>5 years</duration>
+  </tags>
+</contentfragment>
